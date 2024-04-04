@@ -3,8 +3,8 @@ import usocket as socket
 from machine import Pin
 
 # Configure your network settings
-SSID = "SK_WiFiGIGA83E4"
-PASSWORD = "1903001744"
+SSID = " "
+PASSWORD = " "
 
 # Connect to WiFi
 wlan = network.WLAN(network.STA_IF)
