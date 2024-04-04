@@ -2,11 +2,11 @@ import network
 import socket
 
 # Wi-Fi 연결 설정
-WIFI_SSID = 'SK_WiFiGIGA83E4'
-WIFI_PASSWORD = '1903001744'
-IP_ADDRESS = '192.168.35.222'  # 고정 IP 주소 설정
+WIFI_SSID = ' '
+WIFI_PASSWORD = ''
+IP_ADDRESS = '192.168.1.10'  # 고정 IP 주소 설정
 SUBNET_MASK = '255.255.255.0'
-GATEWAY = '192.168.35.1'
+GATEWAY = '192.168.1.1'
 
 # Wi-Fi 모듈 초기화
 wifi = network.WLAN(network.STA_IF)
