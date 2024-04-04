@@ -5,7 +5,7 @@ from machine import Pin
 # 네트워크 인터페이스 설정
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)  # WiFi 활성화
-wlan.connect('SK_WiFiGIGA83E4', '1903001744')  # WiFi에 연결
+wlan.connect('', '')  # WiFi에 연결
 
 # IP 획득 및 커텍트 확인
 while wlan.isconnected() == False:
